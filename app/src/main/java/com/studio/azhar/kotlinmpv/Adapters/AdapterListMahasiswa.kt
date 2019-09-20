@@ -14,7 +14,7 @@ class AdapterListMahasiswa (private val context: Context, private val list: List
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)=
-        AdapterListMahasiswa.ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_data, parent, false))
+       ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_data, parent, false))
 
     override fun getItemCount(): Int = list.size
 

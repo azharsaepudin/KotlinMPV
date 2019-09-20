@@ -1,9 +1,5 @@
 package com.studio.azhar.kotlinmpv.UI.InputData
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import android.support.v7.app.AlertDialog
-import android.widget.Toast
 import com.studio.azhar.kotlinmpv.Base.BaseActivity
 import com.studio.azhar.kotlinmpv.R
 import com.studio.azhar.kotlinmpv.Util.DialogLoading
@@ -36,7 +32,6 @@ class InputDataActivity : BaseActivity(), InputDataView {
 
         inputDataPresenter.inputData(nama.toString(), email.toString())
 
-        Toast.makeText(this, "hai", Toast.LENGTH_LONG).show()
     }
 
     override fun onSuccess(message: String?) {

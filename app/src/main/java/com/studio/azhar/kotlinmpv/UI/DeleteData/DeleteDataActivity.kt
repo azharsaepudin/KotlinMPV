@@ -1,10 +1,6 @@
 package com.studio.azhar.kotlinmpv.UI.DeleteData
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import android.support.v7.app.AlertDialog
 import com.studio.azhar.kotlinmpv.Base.BaseActivity
-import com.studio.azhar.kotlinmpv.Base.BaseView
 import com.studio.azhar.kotlinmpv.R
 import com.studio.azhar.kotlinmpv.Util.DialogLoading
 import kotlinx.android.synthetic.main.activity_delete.*

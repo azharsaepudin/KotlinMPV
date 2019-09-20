@@ -1,12 +1,8 @@
 package com.studio.azhar.kotlinmpv.UI.UpdateData
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import android.support.v7.app.AlertDialog
 import com.studio.azhar.kotlinmpv.Base.BaseActivity
 import com.studio.azhar.kotlinmpv.R
 import com.studio.azhar.kotlinmpv.Util.DialogLoading
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_update_data.*
 import kotlinx.android.synthetic.main.activity_update_data.edt_Nama
 import org.jetbrains.anko.longToast

@@ -1,8 +1,6 @@
 package com.studio.azhar.kotlinmpv.Model
 
-import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import kotlinx.android.parcel.Parcelize
 
 
 data class ModelMahasiswa (
