@@ -23,4 +23,6 @@ interface ApiInterface {
     @HTTP(method = "DELETE", path = "/rest-api/wpu-rest-server/api/mahasiswa", hasBody = true)
     fun deleteData(@Field("id") id: String?): Call<ApiResponse>
 
+    @GET("/rest-api/wpu-rest-server/api/mahasiswa")
+    fun getData(): Call<ApiResponse>
 }
